@@ -10,16 +10,16 @@ extTranslator:
   touched: false
 msgUpdated:
   description: Message shown when a script is updated/reinstalled.
-  message: Script mis &agrave; jour.
+  message: Script mis à jour.
 msgErrorFetchingScript:
   description: Message shown when Violentmonkey fails fetching a new version of the script.
   message: Erreur de lecture du script !
 msgInstalled:
   description: Message shown when a script is installed.
-  message: Script install&eacute;.
+  message: Script installé
 Warning:
   description: Show warnings with a notification.
-  message: Avertisement
+  message: Alerte
   touched: false
 msgWarnGrant:
   description: Message shown when `@grant` is not found in a script.
@@ -29,10 +29,10 @@ msgWarnGrant:
   touched: false
 labelNoName:
   description: Text as the name of a script when no @name is assigned.
-  message: Null name
+  message: Nom vide
 msgUpdating:
   description: Message shown when a new version of script is being fetched.
-  message: Mise &agrave; jour...
+  message: Mise à jour...
 msgNewVersion:
   description: >-
     Message shown when a new version of script is found by @updateURL, but no
@@ -40,13 +40,13 @@ msgNewVersion:
   message: Nouvelle version disponible.
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
-  message: V&eacute;rification des mises &agrave; jour...
+  message: Vérification des mises à jour...
 msgErrorFetchingUpdateInfo:
   description: Message shown when Violentmonkey fails fetching version data of the script.
-  message: Impossible de trouver des mises &agrave; jour.
+  message: Impossible de trouver des mises à jour.
 msgNoUpdate:
   description: Message shown when there is no new version of a script.
-  message: Aucune mise &agrave; jour trouv&eacute;e .
+  message: Aucune mise à jour trouvée
 labelInstall:
   description: Shown in the title of the confirm page while trying to install a script.
   message: Installation du script
@@ -90,7 +90,7 @@ msgLoadingData:
   message: Chargement du script...
 sideMenuInstalled:
   description: 'Side menu: Installed scripts'
-  message: Scripts install&eacute;s
+  message: Scripts installés
 sideMenuSettings:
   description: 'Side menu: Settings'
   message: Paramètres
@@ -102,10 +102,10 @@ buttonNew:
   message: Nouveau
 buttonUpdateAll:
   description: Check all scripts for updates.
-  message: V&eacute;rifier les mises &agrave; jour pour tous
+  message: Vérifier les mises à jour pour tous
 anchorGetMoreScripts:
   description: Link to get more scripts.
-  message: Plus de scripts &agrave; partir
+  message: Plus de scripts...
 msgLoading:
   description: Message shown in the options page before script list is loaded.
   message: Chargement...
@@ -132,7 +132,7 @@ buttonImportData:
   message: Importer à partir d'une archive zip
 buttonVacuum:
   description: Button to vacuum extension data.
-  message: Traitement des donn&eacute;es
+  message: Traitement des données
 labelDataExport:
   description: Section title of data export.
   message: Exporter les données
@@ -212,37 +212,37 @@ labelInclude:
   message: Inclure
 labelKeepInclude:
   description: Option to keep the original @include rules.
-  message: Conserver les r&egrave;gles d&acute;inclusion originales
+  message: Conserver les règles d'inclusion originales
   touched: false
 labelCustomInclude:
   description: Label of custom @include rules.
-  message: 'Personnaliser les r&egrave;gles d&acute;inclusion : <em>(Une par ligne)</em>'
+  message: 'Personnaliser les règles d'inclusion : <em>(Une par ligne)</em>'
   touched: false
 labelMatch:
   description: Label of @match rules.
   message: Correspondances
 labelKeepMatch:
   description: Option to keep the original @match rules.
-  message: Conserver les r&egrave;gles de correspondance originales
+  message: Conserver les règles de correspondance originales
   touched: false
 labelCustomMatch:
   description: Label of custom @match rules.
-  message: 'Personnaliser les r&egrave;gles de correspondance : <em>(Une par ligne)</em>'
+  message: 'Personnaliser les règles de correspondance : <em>(Une par ligne)</em>'
   touched: false
 labelExclude:
   description: Label of @exclude rules.
   message: Exclure
 labelKeepExclude:
   description: Option to keep the original @exclude rules.
-  message: Conserver les r&egrave;gles d&acute;exclusion originales
+  message: Conserver les règles d'exclusion originales
   touched: false
 labelCustomExclude:
   description: Label of custom @exclude rules.
-  message: 'Personnaliser les r&egrave;gles d&acute;exclusion : <em>(Une par ligne)</em>'
+  message: 'Personnaliser les règles d'exclusion : <em>(Une par ligne)</em>'
   touched: false
 labelAllowUpdate:
   description: Option to allow checking updates for a script.
-  message: Autoriser les mises &agrave; jour
+  message: Autoriser les mises à jour
 buttonSave:
   description: Button to save modifications of a script.
   message: Enregistrer
@@ -251,14 +251,14 @@ buttonSaveClose:
   message: Enregistrer et Fermer
 labelNoScripts:
   description: Message shown when no script is installed.
-  message: 'Oups, vous n''avez pas encore de script.'
+  message: 'Oups, vous n'avez pas encore de script.'
 hintSupportPage:
   description: Hint for support page.
   message: Support page
   touched: false
 buttonDisable:
   description: Button to disable a script.
-  message: D&eacute;sactiver
+  message: Désactiver
 buttonEnable:
   description: Button to enable a script.
   message: Activer
@@ -270,7 +270,7 @@ buttonRemove:
   message: Supprimer
 buttonUpdate:
   description: Check a script for updates.
-  message: V&eacute;rifier les mises &agrave; jour
+  message: Vérifier les mises à jour
 msgImported:
   description: >-
     Message shown after import. There is an argument referring to the count of
@@ -282,14 +282,14 @@ hintUseDownloadURL:
 confirmNotSaved:
   description: Confirm message shown when there are unsaved script modifications.
   message: |-
-    Les modifications ne sont pas enregistr&eacute;es !
+    Les modifications ne sont pas enregistrées !
      OK pour continuer ou annuler pour revenir.
 buttonVacuuming:
   description: Message shown when data vacuum is in progress.
   message: Nettoyage des données...
 buttonVacuumed:
   description: Message shown when data is vacuumed.
-  message: Donn&eacute;es trait&eacute;es
+  message: Données traitées
 hintVacuum:
   description: Hint for vacuuming data.
   message: Recharger les ressources en cache.
@@ -312,24 +312,24 @@ menuScriptEnabled:
   message: Scripts activés
 labelSearch:
   description: Label for search input in search box.
-  message: 'Search for: '
+  message: 'Rechercher : '
 labelSearchFor:
   description: Text shown as a place holder in the search box.
-  message: Search for...
+  message: Rechercher...
   touched: false
 labelReplace:
   description: Label for replace input in search box.
-  message: 'Replace with: '
+  message: 'Remplacer avec : '
 labelReplaceWith:
   description: Text shown as a place holder in the replace box.
-  message: Replace with...
+  message: Remplacer avec...
   touched: false
 buttonReplace:
   description: Button to replace the current match.
-  message: Replace
+  message: Remplacer
 buttonReplaceAll:
   description: Button to replace all matches.
-  message: All
+  message: Tout
 labelIgnoreGrant:
   description: Option to suppress no @grant warnings.
   message: Supprimer les avertissements no @grant
@@ -369,10 +369,10 @@ msgNamespaceConflict:
   description: >-
     Message shown when namespace of the new script conflicts with an existent
     one.
-  message: ''
+  message: 'Conflit détecté'
 labelSyncTo:
   description: Label for sync service.
-  message: ''
+  message: 'Synchroniser les périphériques'
   touched: false
 buttonAuthorized:
   description: Button shown when permissions are already authorized for sync.
@@ -436,13 +436,13 @@ labelSyncAuthorize:
   message: ''
 menuDashboard:
   description: Label for menu item to open dashboard.
-  message: ''
+  message: 'Menu Principal'
 menuMatchedScripts:
   description: Label for menu listing matched scripts.
   message: ''
 labelGeneral:
   description: Label for general settings.
-  message: ''
+  message: 'Paramètres'
 labelBlacklist:
   description: Label for global blacklist settings in security section.
   message: ''
